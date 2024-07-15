@@ -1,0 +1,83 @@
+/** @format */
+.product-container {
+  width: 45%;
+  margin: 0 auto;
+  margin-top: 380px;
+  position: relative;
+}
+.product-list ul {
+  display: flex;
+  column-gap: 10px;
+  justify-content: space-between;
+}
+.img-container img {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.default-img {
+  position: absolute;
+  top: -310px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.default-img img {
+  width: 300px;
+  height: 300px;
+}
+.default-img .product-price {
+  position: absolute ;
+  top: 0px;
+  /* color: white; */
+  z-index: -2;
+}
+.img-name {
+  font-size: 11px;
+}
+.product-price {
+  font-size: 11px;
+}
+
+.hide {
+  display: none;
+}
+.product-item{
+  cursor: pointer;
+  
+}
+.x-btn button {
+  border-width: 0px;
+  background-color: white;
+  font-size: 17px;
+  cursor: pointer;
+  position: absolute;
+  top: -290px;
+  right: 0px;
+}
+
+.carousel.carousel-slider .slider-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel .slider-wrapper .slide {
+  width: 25% !important; 
+  display: flex !important;
+  justify-content: center;
+  column-gap: 15px !important;
+}
+
+.carousel .carousel-slider .control-arrow {
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+}
+
+.carousel .carousel-slider .control-arrow.control-prev {
+  left: -40px; /* Adjust based on your layout */
+}
+
+.carousel .carousel-slider .control-arrow.control-next {
+  right: -40px; /* Adjust based on your layout */
+}

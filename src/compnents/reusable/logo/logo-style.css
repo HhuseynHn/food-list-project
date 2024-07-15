@@ -1,0 +1,8 @@
+.logo h3{
+    color: white;
+    font-weight: 900;
+border: solid 1px white;
+border-radius: 50px;
+width: fit-content;
+padding: 4px 20px;
+}

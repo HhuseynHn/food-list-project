@@ -1,0 +1,30 @@
+/** @format */
+
+header {
+  background-color: #31373d;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+.header-container {
+  width: 85%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
+
+.nav-list ul {
+  display: flex;
+  column-gap: 18px;
+  color: white;
+  font-size: 13.5px;
+  letter-spacing: 0.4px;
+  font-weight: 100;
+  font-family: Times, serif;
+}
+.nav-list li {
+  cursor: pointer;
+}
